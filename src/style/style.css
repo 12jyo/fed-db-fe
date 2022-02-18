@@ -59,3 +59,7 @@ button:hover{
   width: 70%;
   /* border: 2px solid blue; */
 }
+
+.text-input{
+  border: 1px solid black;
+}

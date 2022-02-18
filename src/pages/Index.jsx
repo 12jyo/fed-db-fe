@@ -1,6 +1,7 @@
 import React, {useState, useEffect } from "react";
 import { getAllCollections } from "../repository/api"
 import LeftSideBar from "../components/LeftSideBar";
+import MainView from "../components/MainView";
 import "../style/style.css";
 
 function Index() {
@@ -21,7 +22,7 @@ function Index() {
         <LeftSideBar data={data} />
       </div>
       <div className="main-view">
-        <p>main view</p>
+        <MainView data={data} />
       </div>
     </div>
   );
