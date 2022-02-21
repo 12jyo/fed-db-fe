@@ -7,7 +7,7 @@ export default function MainView({ data }) {
 
   return (
     <div className='my-3'>
-      <button onClick={
+      <button className='create-doc-btn' onClick={
         () => setShow(true)
       }>Create a Document</button>
       {show &&

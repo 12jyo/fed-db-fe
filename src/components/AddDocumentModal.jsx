@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
-import JSONInput from 'react-json-editor-ajrm';
-import locale from 'react-json-editor-ajrm/locale/en';
+// import JSONInput from 'react-json-editor-ajrm';
+// import locale from 'react-json-editor-ajrm/locale/en';
 
 function AddDocumentModal({ onClose }) {
   const [show, setShow] = useState(true);
@@ -31,18 +31,18 @@ function AddDocumentModal({ onClose }) {
         <input className="text-input" type="text" name="gg" id="gg" onChange={(e) => {
           setCollection(e.target.value)
         }}/>
-          <div className="form-group">
+          <div className="my-3 input-textarea d-flex justify-content-center align-item-center">
             <label htmlFor="exampleFormControlTextarea1">
             Basic textarea
             </label>
             <textarea
           onChange={setDocument}
-            className="form-control"
+            className="form-control my-3"
             id="exampleFormControlTextarea1"
             rows="5"
             />
         </div>
-        <button onClick={() => {
+        <button className='my-3 save-button' onClick={() => {
           save();
         }}>Save</button>
       </Modal.Body>

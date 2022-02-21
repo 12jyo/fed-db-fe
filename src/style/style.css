@@ -38,7 +38,7 @@ box-shadow:  6px 6px 12px #a8a8a8,
 
 button:hover{
   color: white;
-  background-color: black;
+  background-color: rgb(59, 51, 51);
 }
 
 .container-base {
@@ -60,6 +60,22 @@ button:hover{
   /* border: 2px solid blue; */
 }
 
+.create-doc-btn{
+  width: 200px;
+  border: 0.5px solid black;
+  border-radius: 6px;
+}
+
 .text-input{
   border: 1px solid black;
+}
+
+.save-button{
+  border: 1px solid black;
+  width: 65px;
+  height: 35px;
+}
+
+.input-textarea{
+  width: 50%;
 }
