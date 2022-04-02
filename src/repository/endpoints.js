@@ -4,7 +4,7 @@ const endpoint = (params, version = "/api/v1") => {
     getAllCollections: `${version}/get-all-collections`,
     editDocument: `${version}/edit-document`,
     getDocumentById: `${version}/get-document-by-id`,
-    getAllDocuments: `${version}/${params}/get-all-document`,
+    getAllDocuments: `${version}/${params}/get-all-documents`,
   };
 };
 

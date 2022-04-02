@@ -4,6 +4,15 @@
   border: 0;
 }
 
+:root{
+  --primary-color: #000839;
+  --primary-shade: #00020b;
+  --para-color: #80849c;
+  --helper-color: #1264fa;
+  --white: #fff;
+  --bg-color: #e6e6eb;
+}
+
 body 
     { 
     font: 86.5%/2.6  "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif;
@@ -77,5 +86,29 @@ button:hover{
 }
 
 .input-textarea{
-  width: 50%;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.main-view-div{
+  width: 100%;
+}
+
+
+.document-div{
+  background-color: #c5bdc5;
+  width: 100%;
+  height: 520px;
+  overflow:scroll;
+
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
+
+.doc-btn{
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 12px;
 }
